@@ -5,7 +5,7 @@ require("../models/bookedSpace");
 require("../models/user");
 require("../models/uploadedSpace");
 
-const uri = "mongodb://localhost:27017/parkingsDB";
+const uri = "mongodb+srv://manojbhichchhar8:narendra9@cluster0.tz5ztvd.mongodb.net/?retryWrites=true&w=majority";
 
 // setting deprecations to false
 mongoose.set("useFindAndModify", false);
